@@ -1,0 +1,48 @@
+body{
+    color: white !important;
+    margin: auto;
+    min-height: 500px;
+    /*background-color: #A09B9A !important; */
+    background-color: #224471 !important;
+}
+
+header {
+    padding: 20px;
+    vertical-align: middle;
+    background: #101010;/*#3A3234;*/
+    text-align: center;
+}
+
+header h1{
+    color: #fff;
+    font-family: Forte,Segoe UI;
+}
+
+section {
+    visibility: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+section h2{
+    font-size: 45px;
+    padding: 10px;
+}
+
+section h3{
+    color:#ACCAE8;
+}
+
+#temp-tag{
+    font-size: 40px;
+}
+
+img{
+    width: 10%;
+}
+
+.btn-primary{
+    padding: 10px;
+    margin-top: 20px;
+    width: 25%;
+}

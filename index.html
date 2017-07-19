@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="css/custom.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- TITLE HEADER -->
+    <header class="header-main">
+        <div class="app-title">
+            <h1>Weather App</h1>
+        </div>
+    </header>
+    
+    <section id="main-section" class="section-main">
+        <div class="Section-container">
+            <h2>You are at <span id="location-name">Location</span></h2>
+        </div>
+        <div>
+            <h3>Forecast for today : <span id="weather-type">weather</span></h3>
+            <div id="weather-img-container"></div>
+        </div>
+        <div >
+            <h2 id="temp-tag">Temperature is <span id="temp-value">Temp</span> <span id="temp-symbol">Symbol</span></h2>
+        </div>
+        <div>
+            <button class="btn-primary" id="convert-btn">Convert to <span id="temp-unit">Fahrenheit</span></button>
+        </div>
+    </section>
+<script src="weather.js"></script>
+</body>
+</html>
